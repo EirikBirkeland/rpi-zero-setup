@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Setting up local WIFI ..."
+echo "Setting up local WiFi ..."
 
 echo "Updating wpa_supplicant.conf ..."
 cat <<EOF >> ./wpa_supplicant.conf 
