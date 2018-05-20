@@ -12,3 +12,6 @@ EOF
 
 echo "Reinitiating interface ..."
 wpa_cli -i wlan0 reconfigure
+
+echo "What's next?"
+echo "You should inspect /etc/wpa_supplicant/wpa_supplicant.conf and update the values according to local copy"
