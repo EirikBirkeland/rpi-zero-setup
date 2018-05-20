@@ -3,12 +3,12 @@
 echo "Setting up local WIFI ..."
 
 echo "Updating wpa_supplicant.conf ..."
-echo >> /etc/wpa_supplicant/wpa_supplicant.conf << EOL
+echo >> ./wpa_supplicant.conf << EOF
 network={
     ssid=$WLAN_SSID
     psk=$WLAN_PSK
 }
-EOL
+EOF
 
 echo "Reinitiating interface ..."
 wpa_cli -i wlan0 reconfigure
