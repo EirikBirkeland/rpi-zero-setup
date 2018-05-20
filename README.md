@@ -3,17 +3,15 @@
 
 1. Connect to local Wifi (SSID and pass as environment variables)
 
-
 `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`
 ```
 network={
-    ssid="testing"
-    psk="testingPassword"
+    ssid=$LOCAL_SSID
+    psk=$LOCAL_PASSWORD
 }
 ```
 (https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
-2.
-3.
-4.
-5.
+# Tmux is convenient
+sudo apt-get install tmux vim -y
+
